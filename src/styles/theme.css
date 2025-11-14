@@ -1,0 +1,17 @@
+:root {
+  --navy: #0b1f3a;
+  --charcoal: #2b2f3a;
+  --white: #ffffff;
+  --accent: #0fad71; /* finance green */
+  --accent-gold: #caa24c;
+}
+body {
+  margin: 0;
+  font-family: 'Inter', 'Roboto', 'Open Sans', system-ui, -apple-system, Arial;
+  color: var(--charcoal);
+  background: var(--white);
+}
+.navbar { background: var(--navy); color: var(--white); }
+.button-accent { background: var(--accent); color: var(--white); }
+.lock-overlay { backdrop-filter: blur(3px); }
+.flash-bar { background: var(--accent-gold); color: var(--navy); }
